@@ -1,5 +1,3 @@
-"use client";
-
 export const EmailInput = ({ setEmail }: any) => {
   return (
     <>

@@ -1,13 +1,44 @@
 [
   {
+    "name": "Progressive Web Apps in 100 Seconds // Build a PWA from Scratch",
+    "link": "sFsRylCQblw",
+    "payd": false
+  },
+  {
+    "name": "Next.js in 100 Seconds // Plus Full Beginner's Tutorial",
+    "link": "Sklc_fQBmcs",
+    "payd": false
+  },
+  {
+    "name": "FKJ | Ylang Ylang EP (Live Session)",
+    "link": "pfU0QORkRpY",
+    "payd": false
+  },
+  {
+    "name": "You and your crew at the club #RickAndMorty #Shorts",
+    "link": "nHfcZVB48kg",
+    "payd": false
+  },
+
+  {
+    "name": "Next 13 vai TRANSFORMAR o front-end! (novas features)",
+    "link": "eyV8-dgv4pU",
+    "payd": true
+  },
+  {
+    "name": "God of War: Ragnarok – Gameplay Trailer | PlayStation Showcase 2021",
+    "link": "TXukPnO9IdY",
+    "payd": true
+  },
+  {
     "name": "NASA Live: Official Stream of NASA TV",
     "link": "21X5lGlDOfg",
     "payd": true
   },
   {
-    "name": "lofi hip hop radio - beats to relax/study to",
-    "link": "jfKfPfyJRdk",
-    "payd": false
+    "name": "NASA Live: Official Stream of NASA TV",
+    "link": "21X5lGlDOfg",
+    "payd": true
   },
   {
     "name": "NASA Live: Official Stream of NASA TV",
@@ -15,9 +46,9 @@
     "payd": true
   },
   {
-    "name": "lofi hip hop radio - beats to relax/study to",
-    "link": "jfKfPfyJRdk",
-    "payd": false
+    "name": "NASA Live: Official Stream of NASA TV",
+    "link": "21X5lGlDOfg",
+    "payd": true
   },
   {
     "name": "NASA Live: Official Stream of NASA TV",
@@ -25,18 +56,8 @@
     "payd": true
   },
   {
-    "name": "lofi hip hop radio - beats to relax/study to",
-    "link": "jfKfPfyJRdk",
-    "payd": false
-  },
-  {
     "name": "NASA Live: Official Stream of NASA TV",
     "link": "21X5lGlDOfg",
     "payd": true
-  },
-  {
-    "name": "lofi hip hop radio - beats to relax/study to",
-    "link": "jfKfPfyJRdk",
-    "payd": false
   }
 ]

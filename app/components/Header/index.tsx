@@ -15,12 +15,6 @@ export default function Header() {
           Streaming
         </Link>
       </div>
-      <div className="navbar-center hidden md:block">
-        <input
-          className=" normal-case text-xl m-2 p-2 rounded-md h-8"
-          placeholder="Search..."
-        />
-      </div>
 
       <div className="navbar-end">
         {session ? (
