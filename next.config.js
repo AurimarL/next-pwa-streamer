@@ -23,6 +23,11 @@ const nextConfig = withPWA({
         protocol: 'https',
         hostname: 'cdn.pixabay.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+      },
+      
     ],
   },
 });

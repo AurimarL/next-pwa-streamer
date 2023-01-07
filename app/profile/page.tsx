@@ -1,16 +1,20 @@
 "use client";
-import { useSession, signOut, signIn } from "next-auth/react";
+import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+import { isReturnStatement } from "typescript";
 
 /* eslint-disable react-hooks/rules-of-hooks */
 export default function page() {
   const { data: session, status } = useSession();
-  const userEmail = session?.user.email;
-
+  const userEmail = session?.user?.email;
   const router = useRouter();
-  if (status === "loading") {
-    return <p>Hang on there...</p>;
-  }
+
+  useEffect(() => {
+    if (status === "unauthenticated") {
+      router.replace("/signin");
+    }
+  }, [status]);
 
   if (status === "authenticated") {
     return (
@@ -21,5 +25,5 @@ export default function page() {
       </>
     );
   }
-  router.back();
+  return <p>Hang on there...</p>;
 }

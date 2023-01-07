@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+
 export default function Header() {
   const { data: session } = useSession();
   const router = usePathname();
@@ -24,23 +25,27 @@ export default function Header() {
         {session ? (
           <>
             <div className="dropdown dropdown-end">
-              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                <div className="w-10 relative ">
-                  <Image
-                    className=" rounded-full"
-                    fill
-                    sizes="24"
-                    src={`${session.user?.image}`}
-                    alt={`${session.user?.name}`}
-                  />
-                </div>
+              <label tabIndex={0} className="btn btn-circle avatar">
+                {session?.user?.image && (
+                  <>
+                    <div className="w-10 relative ">
+                      <Image
+                        className=" rounded-full  "
+                        fill
+                        sizes="24"
+                        src={`${session.user?.image}`}
+                        alt={`${session.user?.name}`}
+                      />
+                    </div>
+                  </>
+                )}
               </label>
               <ul
                 tabIndex={0}
                 className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
               >
                 <li>
-                  <Link href="/profile">Settings</Link>
+                  <Link href="/profile">Profile</Link>
                 </li>
                 <li>
                   <a onClick={() => signOut()}>Logout</a>
