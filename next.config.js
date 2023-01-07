@@ -3,7 +3,7 @@
 const withPWA = require("@ducanh2912/next-pwa").default({
   dest: "public",
   workboxOptions: { disableDevLogs: true },
-  disable: process.env.NODE_ENV === "production",
+  // disable: !process.env.NODE_ENV === "production",
 });
 
 const nextConfig = withPWA({
@@ -15,13 +15,6 @@ const nextConfig = withPWA({
       {
         protocol: 'https',
         hostname: 'placeimg.com',
-      },{
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-      },
-      {
-        protocol: 'https',
-        hostname: 'cdn.pixabay.com',
       },
       {
         protocol: 'https',

@@ -2,7 +2,6 @@
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { isReturnStatement } from "typescript";
 
 /* eslint-disable react-hooks/rules-of-hooks */
 export default function page() {

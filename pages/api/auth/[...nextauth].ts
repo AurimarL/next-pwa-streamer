@@ -10,7 +10,7 @@ export const authOptions = {
         email: { label: "Email", type: "email", placeholder: "me@email.com" },
         password: { label: "Password", type: "password" },
       },
-      authorize(credentials, req) {
+      authorize(credentials) {
         const { email, password } = credentials as {
           email: string;
           password: string;

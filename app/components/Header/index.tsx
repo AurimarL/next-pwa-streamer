@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
 export default function Header() {
   const { data: session } = useSession();
   const router = usePathname();
@@ -12,7 +11,9 @@ export default function Header() {
   return (
     <div className="navbar bg-base-100">
       <div className="navbar-start">
-        <a className="btn btn-ghost normal-case text-xl">Streaming</a>
+        <Link href={"/"} className="btn btn-ghost normal-case text-xl">
+          Streaming
+        </Link>
       </div>
       <div className="navbar-center hidden md:block">
         <input
@@ -48,7 +49,7 @@ export default function Header() {
                   <Link href="/profile">Profile</Link>
                 </li>
                 <li>
-                  <a onClick={() => signOut()}>Logout</a>
+                  <a onClick={() => signOut({ callbackUrl: "/" })}>Logout</a>
                 </li>
               </ul>
             </div>

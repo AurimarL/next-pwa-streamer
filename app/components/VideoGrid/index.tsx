@@ -1,5 +1,5 @@
-import Ivideo from "../../../types/Ivideo";
-import Video from "../../../ui/Video";
+import Ivideo from "types/Ivideo";
+import Video from "ui/Video";
 
 interface IVideoGrid {
   VideosId: Ivideo[];
