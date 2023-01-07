@@ -30,7 +30,7 @@ export default function Home() {
       <section>
         <VideoGrid VideosId={Freevideos} />
         <div className="mt-8">
-          <h1 className="text-center">You need to make Login to SEE MORE</h1>;
+          <h1 className="text-center">You need to make Login to SEE MORE 😎</h1>
         </div>
       </section>
     </>

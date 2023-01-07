@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>NextStreamer</title>
+      <title>Next Streamer</title>
 
       <meta
         name="viewport"
