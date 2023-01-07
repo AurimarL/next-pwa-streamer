@@ -1,5 +1,6 @@
-import "./globals.css";
+import "../styles/globals.css";
 import Header from "./components/Header";
+import Providers from "./providers";
 
 export default function RootLayout({
   children,
@@ -14,10 +15,12 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <div className="m-2">
-          <Header />
-          <main className="flex items-center justify-center">{children}</main>
-        </div>
+        <Providers>
+          <div className="m-2">
+            <Header />
+            <main className="flex items-center justify-center">{children}</main>
+          </div>
+        </Providers>
       </body>
     </html>
   );

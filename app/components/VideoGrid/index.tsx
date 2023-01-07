@@ -1,4 +1,4 @@
-import Ivideo from "../../../types/ivideo";
+import Ivideo from "../../../types/Ivideo";
 import Video from "../../../ui/Video";
 
 interface IVideoGrid {

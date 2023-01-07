@@ -3,7 +3,8 @@ interface IVideo {
 }
 export default function Video({ videoID }: IVideo) {
   return (
-    <iframe className="rounded-lg"
+    <iframe
+      className="rounded-lg"
       src={`https://www.youtube.com/embed/${videoID}`}
       id="ytplayer"
       typeof="text/html"
