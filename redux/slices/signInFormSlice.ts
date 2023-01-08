@@ -28,6 +28,6 @@ export const signInFormSlice = createSlice({
 // Action creators are generated for each case reducer function
 export const { setEmail, setPassword } = signInFormSlice.actions;
 // Other code such as selectors can use the imported `RootState` type
-export const selectCount = (state: RootState) => state.user;
+export const selectCount = (state: RootState) => state.signInForm;
 
 export default signInFormSlice.reducer;

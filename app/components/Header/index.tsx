@@ -59,7 +59,7 @@ export default function Header() {
                 signIn();
               }}
             >
-              Sign in
+              Login
             </button>
           </>
         )}
