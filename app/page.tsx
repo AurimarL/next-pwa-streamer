@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useSession } from "next-auth/react";
 import videos from "../data/videos.json";
 import VideoGrid from "./components/VideoGrid";
