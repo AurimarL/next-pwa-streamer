@@ -51,7 +51,7 @@ export default function Header() {
         ) : (
           <>
             <button
-              className="btn btn-primary"
+              className="btn btn-primary rounded-md"
               onClick={() => {
                 if (router === "/signin") {
                   return;

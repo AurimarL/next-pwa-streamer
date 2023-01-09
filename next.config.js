@@ -14,10 +14,6 @@ const nextConfig = withPWA({
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'placeimg.com',
-      },
-      {
-        protocol: 'https',
         hostname: 'upload.wikimedia.org',
       },
       {
